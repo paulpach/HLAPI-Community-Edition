@@ -17,7 +17,7 @@ deploy:
   description: 'HLAPI community edition 2017.4 fixes'
   provider: GitHub
   auth_token:
-    secure: MMIxeq4Jg5xypACSCTJn60ua+/Zj/bJkFUv/SHBPTVIa+jQn3iLZM20PIqD+Eeun # your encrypted token from GitHub
+    secure: G42snf8s5fEos7UfoRSW6eW+8rqGGMH3iw1ZCjRUjcUSKupHUfrKJMXQ11wbjRuW # your encrypted token from GitHub
   artifact: Unity-Technologies-networking\HLAPI_CE_2017.4_fixes.zip            # upload all NuGet packages to release assets
   draft: false
   prerelease: false

@@ -27,7 +27,7 @@ deploy:
   provider: GitHub
   auth_token:
     secure: MMIxeq4Jg5xypACSCTJn60ua+/Zj/bJkFUv/SHBPTVIa+jQn3iLZM20PIqD+Eeun # your encrypted token from GitHub
-  artifact: HLAPI_CE_2017.4_fixes.zip            # upload all NuGet packages to release assets
+  artifact: Unity-Technologies-networking\HLAPI_CE_2017.4_fixes.zip            # upload all NuGet packages to release assets
   draft: false
   prerelease: false
   on:

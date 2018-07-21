@@ -20,3 +20,14 @@ after_test:
       $env:PATH = 'C:\msys64\usr\bin;' + $env:PATH
       Invoke-WebRequest -Uri 'https://codecov.io/bash' -OutFile codecov.sh
       bash codecov.sh -f "coverage.xml" 
+
+deploy:
+  description: 'HLAPI CE $(APPVEYOR_REPO_BRANCH) '
+  provider: GitHub
+  auth_token:
+    secure: MMIxeq4Jg5xypACSCTJn60ua+/Zj/bJkFUv/SHBPTVIa+jQn3iLZM20PIqD+Eeun # your encrypted token from GitHub
+  artifact: Unity-Technologies-networking/Output.zip            # upload all NuGet packages to release assets
+  draft: false
+  prerelease: false
+  on:
+    appveyor_repo_tag: true        # deploy on tag push only

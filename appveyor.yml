@@ -9,6 +9,7 @@ build:
   
 artifacts:
   - path: Unity-Technologies-networking/Output
+    name: HLAPI_CE_2017.4_fixes
 
 image: Visual Studio 2017
 
@@ -22,11 +23,11 @@ after_test:
       bash codecov.sh -f "coverage.xml" 
 
 deploy:
-  description: 'HLAPI CE $(APPVEYOR_REPO_BRANCH) '
+  description: 'HLAPI community edition $(APPVEYOR_REPO_BRANCH) '
   provider: GitHub
   auth_token:
     secure: MMIxeq4Jg5xypACSCTJn60ua+/Zj/bJkFUv/SHBPTVIa+jQn3iLZM20PIqD+Eeun # your encrypted token from GitHub
-  artifact: Unity-Technologies-networking/Output.zip            # upload all NuGet packages to release assets
+  artifact: HLAPI_CE_2017.4_fixes.zip            # upload all NuGet packages to release assets
   draft: false
   prerelease: false
   on:

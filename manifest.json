@@ -1,0 +1,17 @@
+
+{
+    "name": "com.noobtus.mirror",
+    "displayName": "Mirror",
+    "description": "High level networking library similar to HLAPI",
+    "version": "5.1.2",
+    "unity": "2018.3",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+[URL]https://github.com/paulpach/Mirror.git[/URL]"
+    },
+    "src": "Assets/Mirror",
+    "author": "Mirror Team ([URL]https://github.com/paulpach/Mirror[/URL])",
+    "dependencies": {
+    }
+}

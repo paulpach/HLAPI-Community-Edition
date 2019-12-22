@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>12/22/2019 - 3:41:19 PM</Generatedon>
+    <Parser>OpenCoverParser</Parser>
+    <Assemblies>9</Assemblies>
+    <Classes>207</Classes>
+    <Files>157</Files>
+    <Coveredlines>5240</Coveredlines>
+    <Uncoveredlines>9794</Uncoveredlines>
+    <Coverablelines>15034</Coverablelines>
+    <Totallines>30225</Totallines>
+    <Linecoverage>34.8</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="Mirror" classes="110" coverage="18.1" coveredlines="1305" coverablelines="7175" totallines="32626" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.AddPlayerMessage" coverage="0" coveredlines="0" coverablelines="6" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ByteMessage" coverage="0" coveredlines="0" coverablelines="11" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.BytesMessage" coverage="0" coveredlines="0" coverablelines="11" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ClientRpcAttribute" coverage="0" coveredlines="0" coverablelines="1" totallines="93" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ClientScene" coverage="1.7" coveredlines="7" coverablelines="396" totallines="732" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.CommandAttribute" coverage="0" coveredlines="0" coverablelines="1" totallines="93" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.CommandMessage" coverage="0" coveredlines="0" coverablelines="12" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ConnectMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.DisconnectMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.DotNetCompatibility" coverage="0" coveredlines="0" coverablelines="3" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.DoubleMessage" coverage="0" coveredlines="0" coverablelines="11" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.EmptyMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ErrorMessage" coverage="0" coveredlines="0" coverablelines="9" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ExponentialMovingAverage" coverage="100" coveredlines="18" coverablelines="18" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.FallbackTransport" coverage="0" coveredlines="0" coverablelines="93" totallines="158" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.FloatBytePacker" coverage="42.8" coveredlines="12" coverablelines="28" totallines="60" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.IntegerMessage" coverage="0" coveredlines="0" coverablelines="11" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.LLAPITransport" coverage="0" coveredlines="0" coverablelines="169" totallines="377" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.LogFilter" coverage="100" coveredlines="1" coverablelines="1" totallines="7" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.MessageBase" coverage="100" coveredlines="2" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.MessagePacker" coverage="66.6" coveredlines="32" coverablelines="48" totallines="166" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.MultiplexTransport" coverage="0" coveredlines="0" coverablelines="173" totallines="277" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkAuthenticator" coverage="0" coveredlines="0" coverablelines="18" totallines="89" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkBehaviour" coverage="16.2" coveredlines="58" coverablelines="358" totallines="826" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkClient" coverage="0" coveredlines="0" coverablelines="202" totallines="473" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkConnection" coverage="40.1" coveredlines="45" coverablelines="112" totallines="336" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkConnectionToClient" coverage="10.8" coveredlines="5" coverablelines="46" totallines="92" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkConnectionToServer" coverage="0" coveredlines="0" coverablelines="13" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkDiagnostics" coverage="15" coveredlines="3" coverablelines="20" totallines="80" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkIdentity" coverage="28.8" coveredlines="165" coverablelines="572" totallines="1212" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkManager" coverage="0" coveredlines="0" coverablelines="526" totallines="1252" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkManagerHUD" coverage="0" coveredlines="0" coverablelines="72" totallines="128" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkMessage" coverage="62.5" coveredlines="5" coverablelines="8" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkPingMessage" coverage="0" coveredlines="0" coverablelines="9" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkPongMessage" coverage="0" coveredlines="0" coverablelines="8" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkReader" coverage="96.4" coveredlines="54" coverablelines="56" totallines="355" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkReaderExtensions" coverage="75" coveredlines="111" coverablelines="148" totallines="355" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkServer" coverage="0.6" coveredlines="4" coverablelines="657" totallines="1337" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkSettingsAttribute" coverage="0" coveredlines="0" coverablelines="1" totallines="93" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkStartPosition" coverage="0" coveredlines="0" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkTime" coverage="0" coveredlines="0" coverablelines="58" totallines="183" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkWriter" coverage="53.6" coveredlines="37" coverablelines="69" totallines="564" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkWriterExtensions" coverage="84.1" coveredlines="212" coverablelines="252" totallines="564" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkWriterPool" coverage="100" coveredlines="12" coverablelines="12" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NotReadyMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ObjectDestroyMessage" coverage="0" coveredlines="0" coverablelines="6" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ObjectHideMessage" coverage="0" coveredlines="0" coverablelines="6" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ObjectSpawnFinishedMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ObjectSpawnStartedMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ReadyMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.RemovePlayerMessage" coverage="0" coveredlines="0" coverablelines="2" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.RpcMessage" coverage="0" coveredlines="0" coverablelines="12" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SceneMessage" coverage="100" coveredlines="8" coverablelines="8" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SpawnMessage" coverage="0" coveredlines="0" coverablelines="28" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.StringHash" coverage="100" coveredlines="7" coverablelines="7" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.StringMessage" coverage="0" coveredlines="0" coverablelines="11" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncDictionary[TKey,TValue]" coverage="33.3" coveredlines="3" coverablelines="9" totallines="311" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncEventAttribute" coverage="0" coveredlines="0" coverablelines="1" totallines="93" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncEventMessage" coverage="0" coveredlines="0" coverablelines="12" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncHashSet[T]" coverage="50" coveredlines="1" coverablelines="2" totallines="334" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncIDictionary[TKey,TValue]" coverage="78" coveredlines="121" coverablelines="155" totallines="311" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncList[T]" coverage="92.4" coveredlines="171" coverablelines="185" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncListBool" coverage="100" coveredlines="2" coverablelines="2" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncListFloat" coverage="100" coveredlines="2" coverablelines="2" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncListInt" coverage="100" coveredlines="2" coverablelines="2" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncListString" coverage="100" coveredlines="2" coverablelines="2" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncListSTRUCT[T]" coverage="0" coveredlines="0" coverablelines="1" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncListUInt" coverage="100" coveredlines="2" coverablelines="2" totallines="390" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncSet[T]" coverage="94.3" coveredlines="167" coverablelines="177" totallines="334" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SyncSortedSet[T]" coverage="0" coveredlines="0" coverablelines="2" totallines="334" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.TargetRpcAttribute" coverage="0" coveredlines="0" coverablelines="1" totallines="93" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.TelepathyTransport" coverage="0" coveredlines="0" coverablelines="105" totallines="217" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Transport" coverage="0" coveredlines="0" coverablelines="16" totallines="208" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ULocalConnectionToClient" coverage="72.2" coveredlines="13" coverablelines="18" totallines="105" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.ULocalConnectionToServer" coverage="84" coveredlines="21" coverablelines="25" totallines="105" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.UpdateVarsMessage" coverage="0" coveredlines="0" coverablelines="8" totallines="491" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Websocket.Client" coverage="0" coveredlines="0" coverablelines="104" totallines="186" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Websocket.Server" coverage="0" coveredlines="0" coverablelines="181" totallines="345" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Websocket.WebsocketTransport" coverage="0" coveredlines="0" coverablelines="85" totallines="156" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="NetworkStreamExtensions" coverage="0" coveredlines="0" coverablelines="19" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.BufferPool" coverage="0" coveredlines="0" coverablelines="122" totallines="248" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.EntityTooLargeException" coverage="0" coveredlines="0" coverablelines="9" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.InvalidHttpResponseCodeException" coverage="0" coveredlines="0" coverablelines="18" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.SecWebSocketKeyMissingException" coverage="0" coveredlines="0" coverablelines="9" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.ServerListenerSocketException" coverage="0" coveredlines="0" coverablelines="9" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.WebSocketBufferOverflowException" coverage="0" coveredlines="0" coverablelines="9" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.WebSocketHandshakeFailedException" coverage="0" coveredlines="0" coverablelines="9" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Exceptions.WebSocketVersionNotSupportedException" coverage="0" coveredlines="0" coverablelines="9" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.HttpHelper" coverage="0" coveredlines="0" coverablelines="75" totallines="201" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.BinaryReaderWriter" coverage="0" coveredlines="0" coverablelines="78" totallines="149" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.Events" coverage="0" coveredlines="0" coverablelines="239" totallines="393" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.WebSocketFrame" coverage="0" coveredlines="0" coverablelines="16" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.WebSocketFrameCommon" coverage="0" coveredlines="0" coverablelines="16" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.WebSocketFrameReader" coverage="0" coveredlines="0" coverablelines="79" totallines="168" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.WebSocketFrameWriter" coverage="0" coveredlines="0" coverablelines="35" totallines="98" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.Internal.WebSocketImplementation" coverage="0" coveredlines="0" coverablelines="352" totallines="627" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.PingPongManager" coverage="0" coveredlines="0" coverablelines="53" totallines="139" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.PongEventArgs" coverage="0" coveredlines="0" coverablelines="5" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.WebSocketClientFactory" coverage="0" coveredlines="0" coverablelines="139" totallines="288" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.WebSocketClientOptions" coverage="0" coveredlines="0" coverablelines="14" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.WebSocketHttpContext" coverage="0" coveredlines="0" coverablelines="15" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.WebSocketServerFactory" coverage="0" coveredlines="0" coverablelines="70" totallines="172" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Ninja.WebSockets.WebSocketServerOptions" coverage="0" coveredlines="0" coverablelines="9" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.Client" coverage="0" coveredlines="0" coverablelines="62" totallines="198" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.Common" coverage="0" coveredlines="0" coverablelines="107" totallines="289" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.Logger" coverage="0" coveredlines="0" coverablelines="3" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.Message" coverage="0" coveredlines="0" coverablelines="5" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.SafeQueue[T]" coverage="0" coveredlines="0" coverablelines="35" totallines="75" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.Server" coverage="0" coveredlines="0" coverablelines="125" totallines="290" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Telepathy.Utils" coverage="0" coveredlines="0" coverablelines="12" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Authenticators" classes="2" coverage="0" coveredlines="0" coverablelines="76" totallines="188" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.Authenticators.BasicAuthenticator" coverage="0" coveredlines="0" coverablelines="43" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Authenticators.TimeoutAuthenticator" coverage="0" coveredlines="0" coverablelines="33" totallines="66" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.CompilerSymbols" classes="1" coverage="0" coveredlines="0" coverablelines="4" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.PreprocessorDefine" coverage="0" coveredlines="0" coverablelines="4" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Components" classes="7" coverage="0" coveredlines="0" coverablelines="846" totallines="1880" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.NetworkAnimator" coverage="0" coveredlines="0" coverablelines="266" totallines="429" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkProximityChecker" coverage="0" coveredlines="0" coverablelines="58" totallines="174" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkRoomManager" coverage="0" coveredlines="0" coverablelines="268" totallines="639" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkRoomPlayer" coverage="0" coveredlines="0" coverablelines="60" totallines="163" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkTransform" coverage="0" coveredlines="0" coverablelines="1" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkTransformBase" coverage="0" coveredlines="0" coverablelines="192" totallines="447" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkTransformChild" coverage="0" coveredlines="0" coverablelines="1" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Editor" classes="5" coverage="0" coveredlines="0" coverablelines="430" totallines="739" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.NetworkBehaviourInspector" coverage="0" coveredlines="0" coverablelines="121" totallines="198" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkInformationPreview" coverage="0" coveredlines="0" coverablelines="181" totallines="283" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkManagerEditor" coverage="0" coveredlines="0" coverablelines="60" totallines="112" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.NetworkScenePostProcess" coverage="0" coveredlines="0" coverablelines="32" totallines="90" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.SceneDrawer" coverage="0" coveredlines="0" coverablelines="36" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Examples" classes="24" coverage="0" coveredlines="0" coverablelines="642" totallines="1759" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.Examples.Additive.AdditiveNetworkManager" coverage="0" coveredlines="0" coverablelines="30" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Additive.PlayerController" coverage="0" coveredlines="0" coverablelines="64" totallines="101" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Additive.RandomColor" coverage="0" coveredlines="0" coverablelines="12" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Additive.ShootingTankBehaviour" coverage="0" coveredlines="0" coverablelines="30" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Additive.ZoneHandler" coverage="0" coveredlines="0" coverablelines="10" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Basic.Player" coverage="0" coveredlines="0" coverablelines="25" totallines="80" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Chat.ChatNetworkManager" coverage="0" coveredlines="0" coverablelines="17" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Chat.ChatWindow" coverage="0" coveredlines="0" coverablelines="15" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Chat.Player" coverage="0" coveredlines="0" coverablelines="13" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.ListServer.ListServer" coverage="0" coveredlines="0" coverablelines="180" totallines="338" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.ListServer.ServerStatus" coverage="0" coveredlines="0" coverablelines="9" totallines="338" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.NetworkRoomManagerExt" coverage="0" coveredlines="0" coverablelines="18" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.NetworkRoomPlayerExt" coverage="0" coveredlines="0" coverablelines="10" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.OfflineGUI" coverage="0" coveredlines="0" coverablelines="11" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.PlayerController" coverage="0" coveredlines="0" coverablelines="64" totallines="101" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.PlayerScore" coverage="0" coveredlines="0" coverablelines="18" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.RandomColor" coverage="0" coveredlines="0" coverablelines="12" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.Reward" coverage="0" coveredlines="0" coverablelines="17" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.NetworkRoom.Spawner" coverage="0" coveredlines="0" coverablelines="12" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Pong.Ball" coverage="0" coveredlines="0" coverablelines="18" totallines="60" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Pong.NetworkManagerPong" coverage="0" coveredlines="0" coverablelines="15" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Pong.Player" coverage="0" coveredlines="0" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Tanks.Projectile" coverage="0" coveredlines="0" coverablelines="14" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Examples.Tanks.Tank" coverage="0" coveredlines="0" coverablelines="23" totallines="58" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Profiler" classes="15" coverage="0" coveredlines="0" coverablelines="1107" totallines="2781" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.Profiler.Chart.ChartView" coverage="0" coveredlines="0" coverablelines="235" totallines="366" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Chart.Series" coverage="0" coveredlines="0" coverablelines="26" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.NetworkProfileMessage" coverage="0" coveredlines="0" coverablelines="6" totallines="114" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.NetworkProfiler" coverage="0" coveredlines="0" coverablelines="165" totallines="300" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.NetworkProfilerWindow" coverage="0" coveredlines="0" coverablelines="239" totallines="436" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.NetworkProfileTick" coverage="0" coveredlines="0" coverablelines="27" totallines="114" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.MultiColumnTreeView" coverage="0" coveredlines="0" coverablelines="145" totallines="384" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.MyExtensionMethods" coverage="0" coveredlines="0" coverablelines="12" totallines="384" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.MyTreeElement" coverage="0" coveredlines="0" coverablelines="5" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.MyTreeElementGenerator" coverage="0" coveredlines="0" coverablelines="12" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.TreeElement" coverage="0" coveredlines="0" coverablelines="17" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.TreeElementUtility" coverage="0" coveredlines="0" coverablelines="61" totallines="102" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.TreeModel[T]" coverage="0" coveredlines="0" coverablelines="64" totallines="114" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.TreeViewItem[T]" coverage="0" coveredlines="0" coverablelines="5" totallines="152" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Profiler.Table.TreeViewWithTreeModel[T]" coverage="0" coveredlines="0" coverablelines="88" totallines="152" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Tests" classes="19" coverage="97.7" coveredlines="1961" coverablelines="2007" totallines="3779" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.Tests.ArraySegmentWriterTest" coverage="83.9" coveredlines="47" coverablelines="56" totallines="145" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.ArrayWriterTest" coverage="100" coveredlines="40" coverablelines="40" totallines="111" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.CustomRWTest" coverage="100" coveredlines="6" coverablelines="6" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.ExponentialMovingAverageTest" coverage="100" coveredlines="20" coverablelines="20" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.FloatBytePackerTest" coverage="100" coveredlines="12" coverablelines="12" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.LocalConnectionTest" coverage="100" coveredlines="41" coverablelines="41" totallines="95" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.MessageBaseTests" coverage="100" coveredlines="9" coverablelines="9" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.MessageInheritanceTests" coverage="100" coveredlines="10" coverablelines="10" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.MessagePackerTest" coverage="100" coveredlines="7" coverablelines="7" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.MockQuest" coverage="55.5" coveredlines="5" coverablelines="9" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.MockQuestReaderWriter" coverage="100" coveredlines="6" coverablelines="6" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.NetworkWriterTest" coverage="99" coveredlines="709" coverablelines="716" totallines="1136" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.SyncDictionaryTest" coverage="100" coveredlines="139" coverablelines="139" totallines="233" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.SyncListTest" coverage="100" coveredlines="178" coverablelines="178" totallines="295" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.SyncSetTest" coverage="100" coveredlines="158" coverablelines="158" totallines="274" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.SyncVarTest" coverage="100" coveredlines="65" coverablelines="65" totallines="160" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.TestMessage" coverage="100" coveredlines="15" coverablelines="15" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.WeaverAssembler" coverage="78.6" coveredlines="96" coverablelines="122" totallines="190" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Tests.WeaverTest" coverage="100" coveredlines="398" coverablelines="398" totallines="731" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Mirror.Weaver" classes="24" coverage="71.8" coveredlines="1974" coverablelines="2747" totallines="5255" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Mirror.Weaver.CommandProcessor" coverage="88.5" coveredlines="54" coverablelines="61" totallines="148" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.CompilationFinishedHook" coverage="49.4" coveredlines="44" coverablelines="89" totallines="162" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Extensions" coverage="63.7" coveredlines="58" coverablelines="91" totallines="151" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Helpers" coverage="21" coveredlines="4" coverablelines="19" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Log" coverage="100" coveredlines="6" coverablelines="6" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.MessageClassProcessor" coverage="89.3" coveredlines="84" coverablelines="94" totallines="141" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.MonoBehaviourProcessor" coverage="100" coveredlines="50" coverablelines="50" totallines="77" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.NetworkBehaviourProcessor" coverage="86.4" coveredlines="486" coverablelines="562" totallines="838" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Program" coverage="81.4" coveredlines="22" coverablelines="27" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.PropertySiteProcessor" coverage="55.3" coveredlines="125" coverablelines="226" totallines="340" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Readers" coverage="33.6" coveredlines="81" coverablelines="241" totallines="385" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.ReaderWriterProcessor" coverage="88.3" coveredlines="53" coverablelines="60" totallines="95" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Resolvers" coverage="35.7" coveredlines="34" coverablelines="95" totallines="141" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.RpcProcessor" coverage="94.6" coveredlines="53" coverablelines="56" totallines="129" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.SyncDictionaryProcessor" coverage="0" coveredlines="0" coverablelines="4" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.SyncEventProcessor" coverage="86.8" coveredlines="79" coverablelines="91" totallines="152" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.SyncListProcessor" coverage="100" coveredlines="3" coverablelines="3" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.SyncObjectInitializer" coverage="86" coveredlines="37" coverablelines="43" totallines="89" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.SyncObjectProcessor" coverage="89.8" coveredlines="62" coverablelines="69" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.SyncVarProcessor" coverage="75.4" coveredlines="160" coverablelines="212" totallines="349" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.TargetRpcProcessor" coverage="92" coveredlines="69" coverablelines="75" totallines="173" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Weaver" coverage="89.3" coveredlines="303" coverablelines="339" totallines="598" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.WeaverLists" coverage="100" coveredlines="6" coverablelines="6" totallines="598" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Mirror.Weaver.Writers" coverage="44.2" coveredlines="101" coverablelines="228" totallines="361" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

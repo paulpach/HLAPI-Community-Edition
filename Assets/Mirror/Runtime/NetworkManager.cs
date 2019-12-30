@@ -390,6 +390,9 @@ namespace Mirror
         public virtual void StartHost()
         {
             OnStartHost();
+            // IMPORTANT: the local connection must be set up before calling StartServer
+            // otherwise the client hooks will not be called in scene objects.
+            // see https://github.com/vis2k/Mirror/pull/1249
             NetworkClient.SetupLocalConnection();
             if (StartServer())
             {
